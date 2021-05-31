@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>
+Zgłoszenia
+</title>
+<style>
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#d279a4;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+</style>
+</head>
+<body leftmargin="70" rightmargin="70" topmargin="50" bottommargin="50" bgcolor="#e6b3cc">
+<div class="sidenav">
+<a href="index.html">Strona główna</a>
+  <a href="galeria1.html">Galeria</a>
+  <a href="zgloszenia.html">Zgłoszenia</a>
+  <a href="cennik.html">Cennik</a>
+</div>
+<div style="background-color:#d279a4; height:10% width:50%;"  >
+	<center><font face="Verdana" color="white"><h1>Zgłoś pupila</h1></font> </center>
+	</div>
+	<div style="background-color:f9ecf2; height:90% width:90%;  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;">
+<center><form method="post" enctype="text/plain" action="dane.html">
+			<fieldset style="width:350px;"><legend>Dane osobowe</legend>
+			<table>
+			<tr><td>Imię</font></td><td><input type="text"></td></tr>
+			<tr><td>Nazwisko</td><td><input type="text"></td></tr>
+			<tr><td>Telefon</td><td><input type="text"></td></tr>
+			<tr><td>Data urodzenia:</td><td><input type="date"></td></tr>
+			</table>
+			</fieldset>
+				<fieldset style="width:420px;"><legend>Dane o kocie i czasie pobytu</legend>
+				<table>
+				<tr><td>Imię zwierzęcia</td><td><input type="text"></td></tr>
+				<tr><td>Rasa</td><td><input type="text"></td></tr>
+				<tr><td>Usposobienie i specjalne wymagania</td><td><textarea rows="12" cols="35"></textarea></td></tr>
+				<tr><td>Początek pobytu</td><td><input type="date"></td></tr>
+				<tr><td>Koniec pobytu</td><td><input type="date"></td></tr>
+				</table>
+				</fieldset>
+				<input type="submit" value="wyślij">
+			</form></center>
+			<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+	</div>
+</body>
+</html>
