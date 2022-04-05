@@ -1,0 +1,62 @@
+#main
+{
+margin: 5% auto 0 auto;
+width:80%;
+height:90%;
+border:4px double #8bcc00;
+border-radius:5px;
+background-image: linear-gradient(#dfff99, white);
+}
+#baner
+{
+font-family: Tahoma;
+color:#003333;
+padding-top: 2%;
+height:10%;
+font-weight: 900;
+background-color: white;
+text-align: center;
+font-size: 30px;
+}
+#lewy
+{
+height:87%;
+width:30%;
+float:left;
+padding-top: 2%;
+}
+
+#tytul
+{
+ margin-left: 1000px;   
+}
+
+#prawy
+{
+  height:87%;
+  width:69%;
+  float:left;
+  border-left:1px #a0ce82 solid;
+}
+img
+{
+width: 280px;
+height: 180px;
+border-radius:5px;
+}
+table
+{
+border-spacing:15px 20px;
+margin:auto;
+text-align: center;
+}
+p
+{
+  font-size: x-large;
+}
+li
+{
+list-style-image: url("flaga.jpg");
+list-style-position: inside;
+font-size:x-large;
+}
