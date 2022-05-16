@@ -1,46 +1,112 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Zabytki Lizbony</title>
+<title>CSS Template</title>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="lizbona.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8e5e3;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #37123C;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  margin-right: 200px;
+  padding-right: 300px;
+}
+
+h1{
+text-align: center;    
+background-color: #945D5E;
+margin-right
+: 200px;
+padding: 10px;
+color: #ddd;
+}
+
+p{
+  padding-left: 300px;  
+  padding-top: 70px;    
+  line-height: 1.5;
+}
+
+</style>
 </head>
 <body>
-<div id="main">
-<div id="baner">
-Zabytki Lizbony
+
+<div class="sidenav">
+  <a href="#">&lt Powrót </a>
+  <a href="biografia.html">Biografia</a>
+  <a href="tworczosc.html">Twórczość</a>
+  <a href="wskazowki.html">Wskazówki</a>
+  <a href="recenzja.html">Recenzje</a>
 </div>
-<div id="lewy">
-<p>Najciekawsze miejsca w Lizbonie</p>
-<ul>
-    <li><a href="klasztor.html">Klasztor Hieronimtów</a></li>
-    <li><a href="wieza.html">Wieża Belem</a></li>
-    <li>Katedra Se</li>
-    <li>Narodowe Muzeum Azulejos</li>
-    <li>Kościół św. Rocha</li>
-    <li>Lizbońskie oceanarium</li>
-    <li>Punk widokowy Portas do Sol</li>
-    <li>Winda Santa Justa</li>
-</ul>
+
+<h1>Rick Riordan</h1>
+
+<div class="content">
+ 
+  <p><b>Richard Russell Riordan Jr. </b> (urodzony 5 czerwca 1964) jest amerykańskim autorem. Jest znany z pisania serii 
+    Percy Jackson i Bogowie Olimpijscy o nastolatku o imieniu Percy Jackson, który odkrywa, że ​​jest synem greckiego boga Posejdon. 
+    Książki Riordana zostały przetłumaczone na czterdzieści dwa języki i sprzedały się w USA w ponad trzydziestu milionach egzemplarzy. 20th Century Fox zaadaptował dwie pierwsze książki z serii o Percy Jacksonie jako część serii filmów. Jego książki zaowocowały pokrewnymi 
+    mediami, takimi jak powieści graficzne i zbiory opowiadań.
+    Pierwszą pełnometrażową powieścią Riordana była Big Red Tequila, która stała się pierwszą książką z Tres Navarre. Jego wielkim
+     przełomem był Złodziej pioruna (2005), pierwsza powieść z pięciotomowej serii Percy Jackson i Bogowie Olimpijscy, która umieściła 
+     grupę współczesnych nastolatków w grecko-rzymskiej oprawie mitologicznej. Od tego czasu Riordan napisał The Heroes of Olympus, sequel serii 
+     Percy Jackson; Kroniki Kane'a (2010-2012), trylogia o podobnym założeniu, skupiająca się na mitologii egipskiej; oraz Magnus Chase and the Gods 
+     of Asgard (2015-2017), ponownie trylogia o podobnym założeniu, skupiająca się na mitologii nordyckiej. Riordan pomógł również Scholastic 
+     Press opracowaniu 39 wskazówek i jej spin-offów oraz napisał swoją pierwszą książkę, 
+    The Maze of Bones (2008). Jego najnowsza książka to Córka Głębin, opublikowana w 2021 roku.
+    </p>
+
+    <p><b>Zwiastun jednej z filmowych adaptacji:</b></p>
+    <p><iframe width="464" height="345" src="https://www.youtube.com/embed/xko1Mx5w4tg"></iframe></p>
+
+    <p>Pierwsza z książek z serii Perciego Jacksona została zaadaptowana również jako musical. Jedna z piosenek:</p>
+
+   <p> <audio controls>
+      <source src="pj.mp3" type="audio/mpeg"></p>
+
 </div>
-<div id="prawy">
-<table>
-<tr>
-    <td colspan="2"><img src="pierwszy.jpg"></td>
-    <td colspan="2"><img src="drugi.jpg"></td>
-    <td colspan="2"><img src="trzeci.jpg"></td>
-</tr>
-<tr>
-    <td colspan="2"><img src="czwarty.jpeg"></td>
-    <td colspan="2"><img src="piaty.jpg"></td>
-    <td colspan="2"><img src="szosty.jpg"></td>
-</tr>
-<tr>
-    <td colspan="2"><img src="siodmy.jpg"></td>
-    <td colspan="2"><img src="osmy.jpg"></td>
-    <td colspan="2"><img src="dziewiaty.jpg"></td>
-</tr>
-</table>
-</div>
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </body>
 </html>
