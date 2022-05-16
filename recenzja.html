@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8e5e3;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #37123C;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  margin-right: 200px;
+  padding-right: 200px;
+}
+
+h1{
+text-align: center;    
+background-color: #945D5E;
+margin-right: 200px;
+padding: 10px;
+color: #ddd;
+}
+
+.ramka{
+    position: absolute;
+    width: 750px;
+    height: 725px;
+    margin-left: 175px;
+    margin-top: 75px;
+    padding: 30px;
+    border-width:4px;
+    border-style: dashed;
+    border-color: #37123C;
+    z-index: -1;
+}
+
+.tekst{
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: inline-block;
+    background-color: #DDA77B;
+    padding: 30px;
+}
+
+.zdj{
+    display: inline-block;
+    margin-left: 150px;
+    border-width:4px;
+    border-style: dashed;
+    border-color: #37123C;
+    padding: 10px;
+}
+
+h2{
+    text-align: center; 
+    margin-right: 200px;
+    size: 20px;
+    color: #37123C;
+}
+
+.opcja{
+margin-left:40px; 
+font-style: italic; 
+color: #3c334d;
+margin-top: 30px;
+margin-left: 175px;
+text-align: center;
+}
+
+input[type=submit]{
+background-color: #D1884D;
+border: 4px solid #ccc;
+color: white;
+padding: 6px 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+margin-left: 980px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="index.html">&lt Powrót </a>
+  <a href="biografia.html">Biografia</a>
+  <a href="tworczosc.html">Twórczość</a>
+  <a href="wskazowki.html">Wskazówki</a>
+  <a href="recenzja.html">Recenzje</a>
+</div>
+
+<h1>Rick Riordan</h1>
+
+<h2>Pozostaw recencję książki</h2>
+
+<div class="content">
+
+<form>
+    <p class="opcja">Imię: <input type="text" name="Imie" size="30" maxlenght="40" required ></p>
+    <p class="opcja">Nazwisko: <input type="text" name="Nazwisko" size="30" maxlenght="40" required></p>
+    <p class="opcja">Tytuł książki: <input type="text" name="Tytul" size="30" maxlenght="40" required></p>
+    <p class="opcja">Recenzja: <textarea name="Recenzja" required ROWS=10 COLS=50 placeholder="..."></textarea> </p>
+
+    <p><input type="submit" value="Wyślij"></p>
+</form>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
