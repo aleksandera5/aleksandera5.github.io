@@ -1,0 +1,191 @@
+html { font-size: 62.5%; }
+
+a {
+   text-decoration: none;
+}
+
+body {
+   background: #d7e6ce;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+	color: #838C95;
+   font-family: Georgia, serif;
+}
+
+header {
+    height: 54px;
+    width: 100%;
+    background: #789475;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 990;
+ }
+
+
+ #glowna {
+    padding-top: 66px;
+    background: #c0d3b4;
+    overflow: hidden;
+ }
+
+ #glowna2 {
+   padding-top: 66px;
+   background-image: url("miodbaner.jpg");
+   background: #d7e6ce;
+   overflow: hidden;
+}
+
+ .glowna-text {
+	color: #676e73;
+   width: 83%;
+   text-align: center;
+   margin: 54px auto 24px auto;
+}
+.glowna-text h1 {
+   font: 40px/1.2em 'montserrat-regular', sans-serif; 
+   color: #fff;
+   padding: 0;
+   margin: 0;
+   text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+}
+
+.glowna-image {
+    width: 100%;
+    margin: 0 auto;
+ }
+ .glowna-image img {
+    text-align: center;
+ }
+
+ #info {
+    background: rgb(238, 234, 222);
+    padding-top: 96px;
+    padding-bottom: 78px;
+    overflow: hidden;
+ }
+
+ .dropbtn-b {
+   font-size: 2em;
+   width: 100%;
+   background-color: #5f8d71;
+   color: white;
+   padding: 20px;
+   border: none;
+   font-family: Georgia, serif;
+}
+
+.dropdown {
+
+   height: 40px;
+   width: 100%;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: inline-block;
+
+}
+
+.dropdown-content {
+
+   margin-left: 35%;
+   font-size: 1.5em;
+   width: 30%;
+   height: 50px;
+   display: none;
+   position: absolute;
+   background: rgba(3, 20, 19, 0.8);
+
+}
+
+.dropdown-content a {
+
+   height: 50px;
+   width: 100%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   line-height: 50px;
+   text-decoration: none;
+   display: block;
+   background: rgba(3, 20, 19, 0.8);
+
+}
+
+.dropdown-content a:hover {
+
+   height: 50px;
+   background-color: #ddd;
+   color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+   height: 50px;
+   display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+
+   background-color: #a5bfc9;
+}
+
+.table-a{
+  width: 800px;
+}
+
+.tdb {
+text-align:center;
+padding: 40px;
+}
+
+.zdj{
+   height: 250px;
+   width: 250px;
+}
+
+.tdz{
+   text-align: center;
+   padding-right: 150px;
+   padding-left: 150px;
+   font-size: larger;
+}
+
+.table-b{
+   margin-top: 150px;
+   margin-bottom: 100px;
+}
+
+.dodaj{
+   font-weight: bolder;
+}
+
+.ikona{
+   width: 150px;
+   height: 150px;
+   padding: 20px;
+}
+
+.tdkontakt{
+   width: 350px;
+   padding: 40px;
+   text-align: center;
+   font-size: 25px;
+   color: white;
+}
+
+.table-c{
+   float: left;
+   margin-left: 70px;
+}
+
+.zdj2{
+   float: right;
+}
+
+td{
+   padding: 30px;
+}
